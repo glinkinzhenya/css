@@ -14,8 +14,8 @@ p {
     color: dimgray;
 }
 
-#unique {
-    background-color: black
+#idcolor {
+    color: red;
 }
 
 .smart {
@@ -41,7 +41,7 @@ fieldset p {
     text-transform: capitalize;
 }
 
-fieldset a {
+fieldset p a {
     color: red;
 }
 
@@ -49,7 +49,7 @@ a {
     color: tomato;
 }
 
-fieldset>div>p {
+form div label {
     color: blanchedalmond;
     background-color: blueviolet;
 }

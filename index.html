@@ -12,34 +12,44 @@
 <body>
     <h1>Типы селекторов</h1>
     <p>Первый тип по имени тега "p". Меняет цвет на dimgra. Вес 1</p>
-    <p id="nique">По id unique цвет burlywood вес 100</p>
-    <p class="smart">по классу smart цвет darkolivegreen вес 10</p>
+    <p id="idcolor">По id unique цвет red вес 100</p>
+    <p class="smart">по классу "smart" цвет darkolivegreen. Вес 10</p>
     <p class="color font">имеет два класса "color, font" меняет цвет на черный и размер шрифта. Вес каждого по 10</p>
     <fieldset>
-        <p>выбирает все теги "p" внутри fieldset и меняет цвет на paleturqu вес 2</p>
+        <p>выбирает все теги "p" внутри fieldset и меняет задний фон на paleturqu вес 2</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis?</p>
         <p>Lorem ipsum dolor sit.</p>
     </fieldset>
-    <p class="style">подключаем через класс "style" с 3мя свойствами: font-size,background-color lightcoral и
+    <h2 class="style">подключаем через класс "style" с 3мя свойствами: font-size,background-color lightcoral и
         text-transform
         capitalize вес 10
-    </p>
+    </h2>
     <fieldset>
-        <h2>меняет цвет на красный тегу "а" вложенного в fieldset вес 1<a href="">Lorem ipsum dolor sit
+        <p>меняет цвет на red тегу "а" вложенного в "fieldset", "p", "a" вес 3<a href="">Lorem ipsum dolor sit
                 ametconsectetur.</a>
-        </h2>
+        </p>
     </fieldset>
     <div>
-        <a href="">применякется цвет по селектору "a" вес 1 цвет tomato</a>
+        <a href="">применякется цвет по селектору тега "a" вес 1 цвет tomato</a>
     </div>
-    <fieldset>
+    <form action="qwerty" method="post">
         <div>
-            <p>Применяется color: blanchedalmond; background-color: blueviolet; ко всем тегам "p" через fieldset div p
-                вес 30</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <label for="email">селектор по имени тега и вложенностей "form", "div", "label" меняет цвет текста
+                blanchedalmond</label>
+            <input id="email" type="email" name="email">
         </div>
-    </fieldset>
+        <div>
+            <label for="password">Задний фон на blueviolet. Вес 3</label>
+            <input id="password" type="password" name="password">
+        </div>
+        <div>
+            <label for="che">Запомнить пароль</label>
+            <input id="che" type="checkbox" name="checkbox">
+        </div>
+        <div>
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
 
 </body>
 
