@@ -1,0 +1,55 @@
+body {
+    background-color: lightsteelblue;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+
+}
+
+h1 {
+    color: grey;
+}
+
+p {
+    color: dimgray;
+}
+
+#unique {
+    background-color: black
+}
+
+.smart {
+    color: darkolivegreen;
+}
+
+
+.color {
+    color: black;
+}
+
+.font {
+    font-size: 20px;
+}
+
+fieldset p {
+    background-color: paleturquoise;
+}
+
+.style {
+    font-size: 20px;
+    background-color: lightcoral;
+    text-transform: capitalize;
+}
+
+fieldset a {
+    color: red;
+}
+
+a {
+    color: tomato;
+}
+
+fieldset>div>p {
+    color: blanchedalmond;
+    background-color: blueviolet;
+}
