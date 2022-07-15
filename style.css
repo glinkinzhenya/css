@@ -31,7 +31,7 @@ p {
     font-size: 20px;
 }
 
-fieldset p {
+fieldset legend {
     background-color: paleturquoise;
 }
 
@@ -41,7 +41,7 @@ fieldset p {
     text-transform: capitalize;
 }
 
-fieldset p a {
+div p a {
     color: red;
 }
 
